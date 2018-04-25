@@ -24,3 +24,6 @@ react-table: https://react-table.js.org
 There are some unit tests that ensure the client/util.js functions that format
 data for display function properly. To run these tests, enter "yarn run test"
 from the /departure-board directory.
+
+departure-board> npm install concurrency
+departure-board/client> npm install react && npm install react-dom && npm install react-table
