@@ -3,7 +3,12 @@ requires yarn dependency manager to run.
 
 Yarn: https://yarnpkg.com/
 
-To run the program, checkout the repository and from the departure-board in 
+To run the program, checkout the repository and build the departure-board and
+dependencies with 
+
+>npm install
+>yarn
+
 the command line enter "yarn run dev". Per the package.json file, this will 
 concurrently run a server (code in server.js) on port 5000 and a client
 (code in /client directory) on port 3000.
